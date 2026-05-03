@@ -1,0 +1,95 @@
+/* Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Title */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* Form */
+form {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input {
+    width: 320px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 12px 18px;
+    margin-left: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Results Section */
+.results {
+    width: 70%;
+    margin: auto;
+}
+
+/* Heading */
+.results h2 {
+    margin-bottom: 10px;
+}
+
+/* List */
+.result-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Each Item */
+.result-item {
+    background: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-left: 5px solid #007bff;
+    transition: 0.3s;
+}
+
+/* Hover */
+.result-item:hover {
+    background: #eef4ff;
+}
+
+/* Header Layout */
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Title */
+.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Score Badge */
+.score {
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
